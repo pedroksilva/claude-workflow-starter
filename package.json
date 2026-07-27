@@ -1,0 +1,14 @@
+{
+  "name": "claude-workflow-starter",
+  "version": "1.0.0",
+  "description": "Open-source starter kit for building workflows with the Anthropic Claude API",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.57.0",
+    "dotenv": "^16.4.5"
+  }
+}
